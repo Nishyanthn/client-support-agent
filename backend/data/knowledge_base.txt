@@ -1,0 +1,338 @@
+InextLabs Customer Support FAQ
+Knowledge Base for AI-Based Services
+
+General Questions
+What is InextLabs?
+InextLabs is an AI-powered service provider that delivers cutting-edge artificial intelligence solutions to businesses and individuals. We specialize in machine learning models, natural language processing, computer vision, and custom AI integrations.
+
+What services does InextLabs offer?
+Custom AI model development and training
+AI API access and integration
+Natural Language Processing (NLP) solutions
+Computer Vision and image recognition
+Chatbot and conversational AI development
+Predictive analytics and data insights
+AI consulting and strategy services
+Model fine-tuning and optimization
+
+Who can use InextLabs services?
+Our services are designed for businesses of all sizes, developers, researchers, and organizations looking to integrate AI capabilities into their operations.
+
+Account Management
+How do I create an account?
+Visit the InextLabs website
+Click "Sign Up" in the top right corner
+Enter your email address and create a password
+Verify your email address through the confirmation link
+Complete your profile information
+
+I forgot my password. How do I reset it?
+Click "Forgot Password" on the login page
+Enter your registered email address
+Check your email for a password reset link
+Follow the link and create a new password
+Log in with your new credentials
+
+How do I update my account information?
+Navigate to Account Settings → Profile → Edit your information → Save Changes
+
+Can I delete my account?
+Yes. Go to Account Settings → Security → Delete Account. Note that this action is irreversible and all your data will be permanently removed after 30 days.
+
+Dashboard Management
+How do I access my dashboard?
+Log in to your InextLabs account and you'll be automatically directed to your main dashboard. You can also access it anytime by clicking "Dashboard" in the navigation menu.
+
+How do I reset my dashboard metrics?
+To reset your dashboard metrics and start fresh:
+1. Navigate to your Dashboard
+2. Click on the "Settings" icon (gear icon) in the top right corner of the metrics panel
+3. Select "Reset Metrics" from the dropdown menu
+4. Confirm the reset action in the popup dialog
+5. Your metrics will be reset to zero and start tracking from the current moment
+Note: This action cannot be undone. Historical data will be archived but not visible in the main dashboard view. You can access archived metrics in Dashboard Settings → Analytics History.
+
+How do I customize my dashboard?
+You can customize your dashboard layout by:
+1. Go to Dashboard → Customize Layout
+2. Drag and drop widgets to rearrange them
+3. Click the "+" button to add new widgets
+4. Click the "x" on any widget to remove it
+5. Click "Save Layout" to preserve your changes
+Available widgets include: API Usage, Model Performance, Cost Analytics, Request Timeline, Error Logs, and Custom Metrics.
+
+How do I export dashboard data?
+To export your dashboard data:
+1. Navigate to Dashboard → Analytics
+2. Select the date range you want to export
+3. Click "Export Data"
+4. Choose format (CSV, JSON, or PDF)
+5. Click "Download"
+The export will include all metrics, usage statistics, and performance data for the selected period.
+
+Can I share my dashboard with team members?
+Yes. Professional and Enterprise plans support team collaboration:
+1. Go to Dashboard → Team Settings
+2. Click "Invite Team Member"
+3. Enter their email address
+4. Set their permission level (View Only, Editor, or Admin)
+5. Click "Send Invitation"
+Team members will receive an email invitation to access the shared dashboard.
+
+How do I set up dashboard alerts?
+To configure alerts for important metrics:
+1. Navigate to Dashboard → Alerts
+2. Click "Create New Alert"
+3. Select the metric to monitor (e.g., API usage, error rate, cost threshold)
+4. Set the trigger condition (e.g., "when usage exceeds 80%")
+5. Choose notification method (email, SMS, or webhook)
+6. Click "Save Alert"
+You'll receive notifications when alert conditions are met.
+
+Billing and Pricing
+What pricing plans are available?
+Free Tier: Limited API calls, basic features, community support
+Starter: $29/month - Increased API limits, standard support
+Professional: $99/month - Higher limits, priority support, custom models
+Enterprise: Custom pricing - Unlimited usage, dedicated support, SLA guarantees
+
+What payment methods do you accept?
+We accept major credit cards (Visa, Mastercard, American Express), PayPal, and bank transfers for Enterprise customers.
+
+How does billing work?
+Billing is based on your subscription plan and usage. You'll be charged monthly on your subscription anniversary date. Usage beyond your plan limits incurs additional charges at published rates.
+
+Can I upgrade or downgrade my plan?
+Yes, you can change your plan at any time from the Billing section. Upgrades take effect immediately. Downgrades take effect at the start of your next billing cycle.
+
+Do you offer refunds?
+We offer a 14-day money-back guarantee for new subscriptions. Refunds for other situations are evaluated on a case-by-case basis.
+
+How can I view my invoices?
+Access your invoices in Account Settings → Billing → Invoice History
+
+API and Integration
+How do I get API credentials?
+Log in to your account
+Navigate to Dashboard → API Keys
+Click "Generate New API Key"
+Copy and securely store your API key
+Use the key in your application headers
+
+What is the API rate limit?
+Rate limits vary by plan:
+Free: 1,000 requests/day
+Starter: 10,000 requests/day
+Professional: 100,000 requests/day
+Enterprise: Custom limits
+
+Which programming languages are supported?
+Our API supports any language that can make HTTP requests. We provide official SDKs for Python, JavaScript, Java, Ruby, and Go.
+
+Where can I find API documentation?
+Complete API documentation is available at docs.inextlabs.com
+
+How do I handle API errors?
+Check our error code documentation. Common solutions include verifying your API key, checking rate limits, and ensuring proper request formatting.
+
+Can I test the API before purchasing?
+Yes! The Free Tier allows you to test all API endpoints with limited usage.
+
+AI Models and Features
+What AI models are available?
+Text generation and completion models
+Sentiment analysis
+Language translation
+Image classification and object detection
+Speech-to-text and text-to-speech
+Custom trained models
+
+Can I train custom models?
+Yes, Professional and Enterprise plans include custom model training capabilities. Contact our sales team for specific requirements.
+
+How accurate are the AI models?
+Accuracy varies by model and use case. Most models achieve 85-95% accuracy on standard benchmarks. Specific performance metrics are available in our documentation.
+
+What languages are supported for NLP?
+We support 50+ languages including English, Spanish, French, German, Chinese, Japanese, Arabic, and many more.
+
+How long does it take to process requests?
+Average response times:
+Text processing: 100-500ms
+Image processing: 500ms-2s
+Custom models: Varies by complexity
+
+Can I use the AI models offline?
+Enterprise customers can deploy models on-premises or in private cloud environments. Contact sales for details.
+
+Data and Privacy
+How is my data stored?
+Data is encrypted at rest using AES-256 encryption and in transit using TLS 1.3. We use secure cloud infrastructure with multiple redundancies.
+
+Do you train models on my data?
+No. Your data is never used to train public models without explicit consent. We maintain strict data isolation.
+
+Is my data shared with third parties?
+No. We do not sell or share your data with third parties except as required by law or with your explicit permission.
+
+Are you GDPR compliant?
+Yes. InextLabs is fully compliant with GDPR, CCPA, and other major data protection regulations.
+
+How long do you retain my data?
+API request logs are retained for 90 days. Account data is retained until account deletion. Custom data retention policies are available for Enterprise customers.
+
+Can I export my data?
+Yes. You can export your data at any time from Account Settings → Data Export.
+
+Technical Support
+How do I contact support?
+Email: support@inextlabs.com
+Live chat: Available on our website (business hours)
+Support tickets: Through your dashboard
+Phone: Enterprise customers only
+
+What are your support hours?
+Free Tier: Community forum only
+Starter: Email support, 24-48 hour response
+Professional: Email + chat, 12-hour response
+Enterprise: 24/7 dedicated support with 1-hour SLA
+
+How do I report a bug?
+Submit a detailed bug report through your dashboard or email bugs@inextlabs.com with:
+Description of the issue
+Steps to reproduce
+Expected vs actual behavior
+Error messages or logs
+Environment details
+
+Where can I find tutorials and guides?
+Visit our Learning Center at learn.inextlabs.com for tutorials, guides, and best practices.
+
+Do you offer training services?
+Yes. We offer onboarding sessions, technical training, and workshops for Professional and Enterprise customers.
+
+Common Issues and Troubleshooting
+"Authentication Failed" Error
+Verify your API key is correct
+Check if your key has expired
+Ensure you're using the correct authentication header format
+Confirm your account is active and in good standing
+
+"Rate Limit Exceeded" Error
+Check your current usage in the dashboard
+Upgrade your plan for higher limits
+Implement request throttling in your application
+Contact support for temporary limit increases
+
+"Invalid Request Format" Error
+Review API documentation for correct request structure
+Verify JSON formatting
+Check required parameters are included
+Ensure content-type headers are set correctly
+
+Slow Response Times
+Check your internet connection
+Verify regional endpoint usage (use closest region)
+Review your request complexity
+Consider caching frequently used results
+Contact support if issues persist
+
+Model Not Returning Expected Results
+Review input data quality and formatting
+Check model parameters and settings
+Verify you're using the correct model for your use case
+Review examples in documentation
+Consider fine-tuning for better results
+
+Dashboard Not Loading or Showing Errors
+Clear your browser cache and cookies
+Try accessing the dashboard in an incognito/private window
+Check if you're using a supported browser (Chrome, Firefox, Safari, Edge)
+Disable browser extensions that might interfere
+Check status.inextlabs.com for any ongoing service issues
+If problems persist, contact support with your browser and operating system details
+
+Dashboard Metrics Not Updating
+Ensure your API key is active and correctly configured
+Check if you've reached your plan's rate limits
+Verify your application is successfully making API calls
+Refresh the dashboard page (metrics update every 5 minutes)
+Check Dashboard Settings → Refresh Interval and adjust if needed
+
+Security
+How do I keep my API key secure?
+Never commit API keys to version control
+Use environment variables
+Rotate keys regularly
+Implement IP whitelisting (Enterprise)
+Monitor usage for suspicious activity
+
+What security certifications do you have?
+We maintain SOC 2 Type II, ISO 27001, and undergo regular security audits.
+
+How do I report a security vulnerability?
+Email security@inextlabs.com with details. We have a responsible disclosure program with rewards for valid findings.
+
+Service Status and Reliability
+Where can I check service status?
+Visit status.inextlabs.com for real-time service status and incident history.
+
+What is your uptime guarantee?
+Professional: 99.5% uptime
+Enterprise: 99.9% uptime with SLA
+
+How do I get notified of service issues?
+Subscribe to status updates at status.inextlabs.com or enable notifications in your dashboard.
+
+Migration and Integration
+Can you help migrate from another AI service?
+Yes. Our Professional Services team can assist with migration. Contact sales@inextlabs.com for details.
+
+Do you integrate with other platforms?
+We offer integrations with popular platforms including Salesforce, Slack, Microsoft Teams, Zapier, and more.
+
+Can I use InextLabs in my mobile app?
+Yes. Our API works seamlessly with iOS, Android, and cross-platform mobile applications.
+
+Legal and Compliance
+What are the Terms of Service?
+Full Terms of Service are available at inextlabs.com/terms
+
+What is your Service Level Agreement (SLA)?
+SLA details are provided in your Enterprise contract. Contact sales for information.
+
+Can I use InextLabs for healthcare applications?
+Enterprise plans can include HIPAA compliance. Contact sales for healthcare-specific requirements.
+
+Getting Started Resources
+Quick Start Guide
+Create an account
+Generate API key
+Install SDK or review API docs
+Make your first API call
+Review response and iterate
+
+Example Use Cases
+Customer service chatbots
+Content generation and summarization
+Image recognition for quality control
+Sentiment analysis for social media monitoring
+Predictive maintenance
+Fraud detection
+
+Best Practices
+Implement error handling
+Cache results when appropriate
+Monitor your usage and costs
+Start with smaller models and scale up
+Test thoroughly in development before production
+Keep API keys secure
+
+Contact Information
+Email Support: support@inextlabs.com
+Sales Inquiries: sales@inextlabs.com
+Technical Questions: developers@inextlabs.com
+Security Issues: security@inextlabs.com
+Website: www.inextlabs.com
+Documentation: docs.inextlabs.com
+Status Page: status.inextlabs.com
