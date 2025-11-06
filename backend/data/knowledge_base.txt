@@ -1,4 +1,5 @@
 InextLabs Customer Support FAQ
+
 Knowledge Base for AI-Based Services
 
 General Questions
@@ -14,6 +15,8 @@ Chatbot and conversational AI development
 Predictive analytics and data insights
 AI consulting and strategy services
 Model fine-tuning and optimization
+
+
 
 Who can use InextLabs services?
 Our services are designed for businesses of all sizes, developers, researchers, and organizations looking to integrate AI capabilities into their operations.
@@ -33,11 +36,15 @@ Check your email for a password reset link
 Follow the link and create a new password
 Log in with your new credentials
 
+
+
 How do I update my account information?
 Navigate to Account Settings → Profile → Edit your information → Save Changes
 
 Can I delete my account?
 Yes. Go to Account Settings → Security → Delete Account. Note that this action is irreversible and all your data will be permanently removed after 30 days.
+
+
 
 Dashboard Management
 How do I access my dashboard?
@@ -89,6 +96,8 @@ To configure alerts for important metrics:
 6. Click "Save Alert"
 You'll receive notifications when alert conditions are met.
 
+
+
 Billing and Pricing
 What pricing plans are available?
 Free Tier: Limited API calls, basic features, community support
@@ -110,6 +119,8 @@ We offer a 14-day money-back guarantee for new subscriptions. Refunds for other 
 
 How can I view my invoices?
 Access your invoices in Account Settings → Billing → Invoice History
+
+
 
 API and Integration
 How do I get API credentials?
@@ -137,6 +148,8 @@ Check our error code documentation. Common solutions include verifying your API 
 
 Can I test the API before purchasing?
 Yes! The Free Tier allows you to test all API endpoints with limited usage.
+
+
 
 AI Models and Features
 What AI models are available?
@@ -184,6 +197,8 @@ API request logs are retained for 90 days. Account data is retained until accoun
 Can I export my data?
 Yes. You can export your data at any time from Account Settings → Data Export.
 
+
+
 Technical Support
 How do I contact support?
 Email: support@inextlabs.com
@@ -210,6 +225,8 @@ Visit our Learning Center at learn.inextlabs.com for tutorials, guides, and best
 
 Do you offer training services?
 Yes. We offer onboarding sessions, technical training, and workshops for Professional and Enterprise customers.
+
+
 
 Common Issues and Troubleshooting
 "Authentication Failed" Error
@@ -259,6 +276,8 @@ Verify your application is successfully making API calls
 Refresh the dashboard page (metrics update every 5 minutes)
 Check Dashboard Settings → Refresh Interval and adjust if needed
 
+
+
 Security
 How do I keep my API key secure?
 Never commit API keys to version control
@@ -304,6 +323,8 @@ SLA details are provided in your Enterprise contract. Contact sales for informat
 Can I use InextLabs for healthcare applications?
 Enterprise plans can include HIPAA compliance. Contact sales for healthcare-specific requirements.
 
+
+
 Getting Started Resources
 Quick Start Guide
 Create an account
@@ -327,6 +348,8 @@ Monitor your usage and costs
 Start with smaller models and scale up
 Test thoroughly in development before production
 Keep API keys secure
+
+
 
 Contact Information
 Email Support: support@inextlabs.com

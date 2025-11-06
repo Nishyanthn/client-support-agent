@@ -75,34 +75,28 @@ def check_ticket_status(ticket_id: str) -> str:
     description="Initiates a password reset process for a user identified by their email address.",
     name="request_password_reset"
 )
-def request_password_reset(email: str) -> str:
+def request_password_reset(email: str, name: str) -> str:
     """
     Simulates sending a password reset email to the provided user email.
     In a real application, this would involve more steps like token generation,
     database updates, and calling an email service.
     Args:
         email (str): The email address of the user requesting the password reset.
+        name (str): The name of the user requesting the password reset.
     Returns:
         str: A confirmation message or an error message.
     """
     print(f"🤖 Action: Running 'request_password_reset' for email: {email}")
 
-    # Basic email format validation (not exhaustive)
+ 
     if not email or "@" not in email or "." not in email:
         print(f"Invalid email format provided: {email}")
         return "Invalid email address format provided. Please provide a valid email."
 
-    # --- Simulation Placeholder ---
-    # In a real-world app, you would add logic here to:
-    # 1. Check if the email exists in a 'users' collection in MongoDB.
-    # 2. Generate a secure, time-limited reset token.
-    # 3. Store the token associated with the user account (e.g., in the user document or a separate collection).
-    # 4. Use an email library (like smtplib, SendGrid, Mailgun) to send an email
-    #    containing a reset link (e.g., your-app.com/reset?token=...).
+    
     print(f"SIMULATION: Pretending to generate reset token for {email} and send email...")
-    # --- End Simulation ---
-
-    # Return a success message to the agent (and ultimately the user)
+   
+    
     return f"A password reset link has been successfully sent to {email}. Please check your inbox."
 
 # You can add more native functions here following the same pattern:
