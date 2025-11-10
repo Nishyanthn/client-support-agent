@@ -72,7 +72,7 @@ def check_ticket_status(ticket_id: str) -> str:
 
 
 @kernel_function(
-    description="Initiates a password reset process for a user identified by their email address.",
+    description="Initiates a password reset process for a user identified by their email address. If you dont have the name then ask the user politely, do not automatically fill it in.",
     name="request_password_reset"
 )
 def request_password_reset(email: str, name: str) -> str:
@@ -87,6 +87,8 @@ def request_password_reset(email: str, name: str) -> str:
         str: A confirmation message or an error message.
     """
     print(f"🤖 Action: Running 'request_password_reset' for email: {email}")
+    print(f"{name}")
+
 
  
     if not email or "@" not in email or "." not in email:
