@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import faiss
 import numpy as np
 import asyncio
@@ -189,6 +190,28 @@ async def retrieve_knowledge(query: str) -> str:
 
 # --- Agent Setup Function ---
 
+async def load_system_prompt() -> str:
+    """Loads the system prompt from the markdown file."""
+    try:
+        # Get the directory where this script is located
+        current_dir = Path(__file__).parent
+        prompt_file = current_dir / "system_prompt.md"
+        
+        # Read the markdown file
+        with open(prompt_file, 'r', encoding='utf-8') as f:
+            system_prompt = f.read()
+        
+        print(f"✅ System prompt loaded from {prompt_file}")
+        return system_prompt
+    
+    except FileNotFoundError:
+        print(f"❌ Error: system_prompt.md not found in {current_dir}")
+        raise
+    except Exception as e:
+        print(f"❌ Error loading system prompt: {e}")
+        raise
+
+
 async def setup_agent() -> ChatCompletionAgent:
     """Initializes and returns the main ChatCompletionAgent."""
     global faiss_retriever, embedding_service
@@ -248,29 +271,13 @@ async def setup_agent() -> ChatCompletionAgent:
         print(f"❌ Error initializing FAISS Retriever: {e}")
         raise
 
-    print("Defining system prompt...")
-    system_prompt = f"""
-    You are a friendly and professional client support agent for our SaaS company.
-    Your goal is to help users by answering their questions and performing specific tasks.
-
-    **TOOL USAGE RULES:**
-
-    1.  **For informational questions** (e.g., "how do I...", "what is...", "explain...", "tell me about..."), you MUST FIRST use the `retrieve_knowledge` tool to search the company knowledge base.
-        * Base your answer *strictly* on the information returned by the `retrieve_knowledge` tool.
-        * If the tool returns "No relevant information found...", inform the user politely that you couldn't find the answer in the knowledge base. Do not make up answers.
-
-    2.  **For specific action requests**, use the appropriate action tool:
-        * To check a support ticket's status (e.g., "what's the status of ticket...", "check my ticket..."), use the `check_ticket_status` tool. You MUST have the `ticket_id` to use this tool. If the user doesn't provide it, ASK them for the ticket ID first.
-        * To request a password reset (e.g., "reset my password", "forgot password"), use the `request_password_reset` tool. You MUST have the user's `email` address. If the user doesn't provide it, ASK them for their email address first.
-
-    3.  **For simple greetings, farewells, or chit-chat** (e.g., "hello", "thank you", "how are you?"), you can respond directly without using any tools.
-
-    **RESPONSE GUIDELINES:**
-    * Be polite, concise, and helpful.
-    * Do not mention the names of the tools you are using (e.g., don't say "I will use the retrieve_knowledge tool"). Just perform the action and give the answer.
-    * If you need information from the user (like a ticket ID or email), ask clearly.
-    * Today's date is {{{{time.today}}}} and the current time is {{{{time.now}}}}. You can use this if needed, for example when discussing support hours or recent events.
-    """
+    print("Loading system prompt from markdown file...")
+    try:
+        system_prompt = await load_system_prompt()
+        print("✅ System prompt loaded successfully.")
+    except Exception as e:
+        print(f"❌ Error loading system prompt: {e}")
+        raise
 
     print("Creating ChatCompletionAgent...")
     try:
@@ -279,7 +286,7 @@ async def setup_agent() -> ChatCompletionAgent:
             kernel=kernel,
             service=chat_service,
             instructions=system_prompt,
-            name="SupportAgent"
+            name="iNextLabsSupportAgent"
         )
         print("✅ ChatCompletionAgent created.")
     except Exception as e:

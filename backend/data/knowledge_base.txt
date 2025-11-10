@@ -1,12 +1,12 @@
-InextLabs Customer Support FAQ
+iNextLabs Customer Support FAQ
 
 Knowledge Base for AI-Based Services
 
 General Questions
-What is InextLabs?
-InextLabs is an AI-powered service provider that delivers cutting-edge artificial intelligence solutions to businesses and individuals. We specialize in machine learning models, natural language processing, computer vision, and custom AI integrations.
+What is iNextLabs?
+iNextLabs is an AI-powered service provider that delivers cutting-edge artificial intelligence solutions to businesses and individuals. We specialize in machine learning models, natural language processing, computer vision, and custom AI integrations.
 
-What services does InextLabs offer?
+What services does iNextLabs offer?
 Custom AI model development and training
 AI API access and integration
 Natural Language Processing (NLP) solutions
@@ -18,12 +18,12 @@ Model fine-tuning and optimization
 
 
 
-Who can use InextLabs services?
+Who can use iNextLabs services?
 Our services are designed for businesses of all sizes, developers, researchers, and organizations looking to integrate AI capabilities into their operations.
 
 Account Management
 How do I create an account?
-Visit the InextLabs website
+Visit the iNextLabs website
 Click "Sign Up" in the top right corner
 Enter your email address and create a password
 Verify your email address through the confirmation link
@@ -42,13 +42,13 @@ How do I update my account information?
 Navigate to Account Settings → Profile → Edit your information → Save Changes
 
 Can I delete my account?
-Yes. Go to Account Settings → Security → Delete Account. Note that this action is irreversible and all your data will be permanently removed after 30 days.
+Yes. Go to Account Settings → Security → Delete Account. Note that this action is irreversible and all your data will be permanently removed after 87 days.
 
 
 
 Dashboard Management
 How do I access my dashboard?
-Log in to your InextLabs account and you'll be automatically directed to your main dashboard. You can also access it anytime by clicking "Dashboard" in the navigation menu.
+Log in to your iNextLabs account and you'll be automatically directed to your main dashboard. You can also access it anytime by clicking "Dashboard" in the navigation menu.
 
 How do I reset my dashboard metrics?
 To reset your dashboard metrics and start fresh:
@@ -141,7 +141,7 @@ Which programming languages are supported?
 Our API supports any language that can make HTTP requests. We provide official SDKs for Python, JavaScript, Java, Ruby, and Go.
 
 Where can I find API documentation?
-Complete API documentation is available at docs.inextlabs.com
+Complete API documentation is available at docs.iNextLabs.com
 
 How do I handle API errors?
 Check our error code documentation. Common solutions include verifying your API key, checking rate limits, and ensuring proper request formatting.
@@ -189,7 +189,7 @@ Is my data shared with third parties?
 No. We do not sell or share your data with third parties except as required by law or with your explicit permission.
 
 Are you GDPR compliant?
-Yes. InextLabs is fully compliant with GDPR, CCPA, and other major data protection regulations.
+Yes. iNextLabs is fully compliant with GDPR, CCPA, and other major data protection regulations.
 
 How long do you retain my data?
 API request logs are retained for 90 days. Account data is retained until account deletion. Custom data retention policies are available for Enterprise customers.
@@ -201,7 +201,7 @@ Yes. You can export your data at any time from Account Settings → Data Export.
 
 Technical Support
 How do I contact support?
-Email: support@inextlabs.com
+Email: support@iNextLabs.com
 Live chat: Available on our website (business hours)
 Support tickets: Through your dashboard
 Phone: Enterprise customers only
@@ -213,7 +213,7 @@ Professional: Email + chat, 12-hour response
 Enterprise: 24/7 dedicated support with 1-hour SLA
 
 How do I report a bug?
-Submit a detailed bug report through your dashboard or email bugs@inextlabs.com with:
+Submit a detailed bug report through your dashboard or email bugs@iNextLabs.com with:
 Description of the issue
 Steps to reproduce
 Expected vs actual behavior
@@ -221,7 +221,7 @@ Error messages or logs
 Environment details
 
 Where can I find tutorials and guides?
-Visit our Learning Center at learn.inextlabs.com for tutorials, guides, and best practices.
+Visit our Learning Center at learn.iNextLabs.com for tutorials, guides, and best practices.
 
 Do you offer training services?
 Yes. We offer onboarding sessions, technical training, and workshops for Professional and Enterprise customers.
@@ -266,7 +266,7 @@ Clear your browser cache and cookies
 Try accessing the dashboard in an incognito/private window
 Check if you're using a supported browser (Chrome, Firefox, Safari, Edge)
 Disable browser extensions that might interfere
-Check status.inextlabs.com for any ongoing service issues
+Check status.iNextLabs.com for any ongoing service issues
 If problems persist, contact support with your browser and operating system details
 
 Dashboard Metrics Not Updating
@@ -290,37 +290,37 @@ What security certifications do you have?
 We maintain SOC 2 Type II, ISO 27001, and undergo regular security audits.
 
 How do I report a security vulnerability?
-Email security@inextlabs.com with details. We have a responsible disclosure program with rewards for valid findings.
+Email security@iNextLabs.com with details. We have a responsible disclosure program with rewards for valid findings.
 
 Service Status and Reliability
 Where can I check service status?
-Visit status.inextlabs.com for real-time service status and incident history.
+Visit status.iNextLabs.com for real-time service status and incident history.
 
 What is your uptime guarantee?
 Professional: 99.5% uptime
 Enterprise: 99.9% uptime with SLA
 
 How do I get notified of service issues?
-Subscribe to status updates at status.inextlabs.com or enable notifications in your dashboard.
+Subscribe to status updates at status.iNextLabs.com or enable notifications in your dashboard.
 
 Migration and Integration
 Can you help migrate from another AI service?
-Yes. Our Professional Services team can assist with migration. Contact sales@inextlabs.com for details.
+Yes. Our Professional Services team can assist with migration. Contact sales@iNextLabs.com for details.
 
 Do you integrate with other platforms?
 We offer integrations with popular platforms including Salesforce, Slack, Microsoft Teams, Zapier, and more.
 
-Can I use InextLabs in my mobile app?
+Can I use iNextLabs in my mobile app?
 Yes. Our API works seamlessly with iOS, Android, and cross-platform mobile applications.
 
 Legal and Compliance
 What are the Terms of Service?
-Full Terms of Service are available at inextlabs.com/terms
+Full Terms of Service are available at iNextLabs.com/terms
 
 What is your Service Level Agreement (SLA)?
 SLA details are provided in your Enterprise contract. Contact sales for information.
 
-Can I use InextLabs for healthcare applications?
+Can I use iNextLabs for healthcare applications?
 Enterprise plans can include HIPAA compliance. Contact sales for healthcare-specific requirements.
 
 
@@ -352,10 +352,10 @@ Keep API keys secure
 
 
 Contact Information
-Email Support: support@inextlabs.com
-Sales Inquiries: sales@inextlabs.com
-Technical Questions: developers@inextlabs.com
-Security Issues: security@inextlabs.com
-Website: www.inextlabs.com
-Documentation: docs.inextlabs.com
-Status Page: status.inextlabs.com
+Email Support: support@iNextLabs.com
+Sales Inquiries: sales@iNextLabs.com
+Technical Questions: developers@iNextLabs.com
+Security Issues: security@iNextLabs.com
+Website: www.iNextLabs.com
+Documentation: docs.iNextLabs.com
+Status Page: status.iNextLabs.com
