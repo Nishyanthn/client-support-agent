@@ -37,7 +37,7 @@ All integrated into a clean **React + FastAPI** web application ⚡
 
 ## 🏗️ System Architecture Overview
 
-> 🎬 *(Tip: Replace this ASCII diagram with an animated GIF for GitHub — export from Figma or Canva!)*  
+> 
 
 ![System Architecture Animation](./assets/block_diagram.png)
 
