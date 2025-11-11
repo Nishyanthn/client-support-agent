@@ -123,8 +123,10 @@ All in one unified architecture.
 ### 👨‍💻 Developed by  
 **Nishyanth Nandagopal**  
    
-🌐 [LinkedIn](#) • [GitHub](#) • [Email](#)
+### 🌐 Connect with Me
+[LinkedIn](https://www.linkedin.com/in/nishyanth-nandagopal/) • [GitHub](https://github.com/Nishyanthn) • [Email](mailto:nishyanthnandagopal@gmail.com)
+
 
 ---
 
-⭐ *If you found this project interesting, don’t forget to star the repo!* ⭐
+
